@@ -1,0 +1,103 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7; /* Light gray background */
+  }
+  
+  /* Service List styles */
+  
+  .service-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-list h1 {
+    margin-top: 0;
+    color: #3498db; /* Teal blue title */
+  }
+  
+  .service-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-list li {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+  }
+  
+  .service-list li:hover {
+    background-color: #f0f0f0; /* Light gray hover effect */
+  }
+  
+  .service-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .service-list span {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .service-list button {
+    background-color: #8bc34a; /* Green button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+  }
+  
+  .service-list button:hover {
+    background-color: #64bd3b; /* Darker green hover effect */
+  }
+  
+  /* Form styles */
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Add a border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  }
+  
+  button[type="submit"] {
+    background-color: #9c27b0; /* Purple button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #7b1fa2; /* Darker purple hover effect */
+  }
